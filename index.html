@@ -1,18 +1,3 @@
-<?php
-session_start();
-
-// Store the current page before redirecting
-if (!isset($_SESSION['user_id'])) {
-    $_SESSION['redirect_to'] = $_SERVER['REQUEST_URI']; // Store the requested page
-    header("Location: ../../login.php"); // Redirect to login
-    exit();
-}
-
-$userId = $_SESSION['user_id'];
-$username = $_SESSION['username'];
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
