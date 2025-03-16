@@ -43,5 +43,6 @@ $username = $_SESSION['username'];
 <body>
     <div id="game-container"></div>
     <script src="game.js"></script>
+    <script src="https://discord.com/assets/4d3470e0a6a13c6e8477.js"></script>
 </body>
 </html>
