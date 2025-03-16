@@ -23,7 +23,7 @@ const game = new Phaser.Game(config);
 
 function preload() {
     this.cameras.main.setBackgroundColor('#E3F2FD'); // Set background to lt blue
-    this.load.image('treeBg', '../images/bgactive0001.png'); // Load the background tree image
+    this.load.image('treeBg', 'assets/bgactive0001.png'); // Load the background tree image
 }
 
 function create() {
