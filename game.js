@@ -120,3 +120,19 @@ function create() {
         }
     });
 }
+
+
+
+// Discord Stuff
+const discordSdk = new window.DiscordSDK('1350859697154035853'); 
+
+(async () => {
+  await discordSdk.ready();
+
+  
+  const user = await discordSdk.commands.getCurrentUser();
+  console.log('Logged in Discord user:', user);
+
+
+})();
+
